@@ -1,0 +1,11 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: wjunming-server
+  profiles:
+    active: dev
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
